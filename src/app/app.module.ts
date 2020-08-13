@@ -7,10 +7,12 @@ import { AppComponent } from './app.component';
 import { ProductListComponent } from './Products/product-list.component';
 import { ConvertToSpacePipe } from './shared/convert-to-space.pipe';
 import { StarComponent } from './shared/star.component';
+import { ProductCardComponent } from './Products/product-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ProductCardComponent,
     ProductListComponent,
     ConvertToSpacePipe,
     StarComponent

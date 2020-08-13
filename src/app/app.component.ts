@@ -1,16 +1,9 @@
 import  {Component} from '@angular/core';
 
 @Component({
-  selector: 'pm-root',
-  template: `
-  <div>
-    <h1>{{pageTitle}}</h1>
-    <div>
-      <pm-products></pm-products>
-    </div>
-  </div>
-  `
+  selector: 'ecom-root',
+  templateUrl: './app.component.html',
 })
 export class AppComponent{
-  pageTitle: string = 'Roy\'s Product Catalog';
+  logoUrl: string = `./assets/images/logo.jpg`;
 }

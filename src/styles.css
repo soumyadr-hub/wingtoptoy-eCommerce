@@ -1,5 +1,6 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~font-awesome/css/font-awesome.min.css';
+@import '~material-icons/css/material-icons.min.css';
 
 /* You can add global styles to this file, and also import other style files */
 div.card-header {
@@ -13,3 +14,5 @@ div.card {
 .table {
   margin-top: 10px
 }
+
+.material-icons.md-48 { font-size: 48px; }
